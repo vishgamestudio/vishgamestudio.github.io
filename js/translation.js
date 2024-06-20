@@ -69,7 +69,7 @@ var toggleLanguage = function(id){
     var element = document.getElementsByClassName("Gamestext2");
     element[0].innerHTML = "In this game, you will assemble your party of heroes to protect the king as you venture through fantastical lands, battling fearsome kings and deadly armies. Strategically use your treasure to recruit and empower powerful heroes... or the Bard.";
     var element = document.getElementsByClassName("VejaOJogoNaSteam");
-    element[0].innerHTML = "Check out the game on Steam!";
+    element[0].innerHTML = "Check out on Steam!";
   }else{
     var element = document.getElementsByClassName("Inicio");
     element[0].innerHTML = "INÍCIO";
