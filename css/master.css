@@ -17,7 +17,7 @@ html {
 .NavMenu{
     width: 100% !important;
     position: fixed !important;
-    height: 24px !important;
+    height: min-content !important;
     z-index: 10;
 }
 
@@ -233,9 +233,9 @@ html {
 }
 
 .Language{
-    margin-top: -2px !important;
-    display: flex !important;
+    display: ruby !important;
     align-content: center !important;
+    height: 100% !important;
 }
 
 .NavButton{
@@ -617,5 +617,13 @@ html {
     .NavMenu{
         padding: 12px 0 !important;
         gap: 4px !important;
+        height: min-content !important;
+    }
+}
+
+
+@media screen and (max-width: 520px){
+    .NavButton{
+        font-size: 8px !important;
     }
 }
