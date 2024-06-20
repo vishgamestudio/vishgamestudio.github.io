@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function(){
 var toggleLanguage = function(id){
   languageIsDefault = !languageIsDefault;
   if (languageIsDefault){
+    var element = document.getElementsByClassName("LanguageIndicator");
+    element[0].innerHTML = "EN"
     var element = document.getElementsByClassName("Inicio");
     element[0].innerHTML = "START";
     var element = document.getElementsByClassName("Games");
@@ -71,6 +73,8 @@ var toggleLanguage = function(id){
     var element = document.getElementsByClassName("VejaOJogoNaSteam");
     element[0].innerHTML = "Check out on Steam!";
   }else{
+    var element = document.getElementsByClassName("LanguageIndicator");
+    element[0].innerHTML = "PT"
     var element = document.getElementsByClassName("Inicio");
     element[0].innerHTML = "INÍCIO";
     var element = document.getElementsByClassName("Games");

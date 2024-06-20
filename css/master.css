@@ -29,8 +29,15 @@ html {
 
 .Footer{
     width: 100% !important;
-    padding: 16px 0 !important;
-    top: 3950px !important;
+    position:absolute !important;
+    bottom:0 !important;
+}
+
+.Footerart{
+    width: 100% !important;
+    flex-grow: 1 !important;
+    position:absolute !important;
+    bottom:0 !important;
 }
 
 .VishGameStudio2022{
@@ -41,29 +48,41 @@ html {
     width: 100% !important;
 }
 
-.BackgroundPage{
-    width: 100% !important;
-    height: 100% !important;
+.Presskittext{
+    text-align: justify;
+}
+
+.HomeExport{
     background-repeat: repeat !important;
     background-image: url(../img/figma/Background.png) !important;
 
-    background-color: black;
-    border: black;
+    background-color: black !important;
 }
 
 .HeroesBackground{
     left: auto !important;
     opacity: 0.3;
-    top: 3568px !important;
+    position: absolute !important;
+    bottom: 50px !important;
 }
 
 .HeroesBanner{
     left: auto !important;
+    width: 90% !important;
 }
 
 .VishLogo{
     width: 100% !important;
     left: 0px !important;
+}
+
+.LanguageIndicator{
+    display: none;
+    padding: 0 8px;
+}
+
+.Language:hover .LanguageIndicator{
+    display: block;
 }
 
 .DivJustKing{
@@ -96,12 +115,18 @@ html {
     left: 90.7% !important;
 }
 
+.Frame22{
+    width: auto !important;
+    height: auto !important;
+}
+
 .Group2{
     left: 92.7% !important;
 }
 
 .Group8{
     left: 6% !important;
+    top: 760px !important;
 }
 
 .Group4{
@@ -124,10 +149,13 @@ html {
 .Rectangle5{
     position: absolute !important;
     height: 320px !important;
+    width: 460px !important;
 }
 
 .Frame1{
     z-index: 1 !important;
+    width: 540px !important;
+    padding-right: 32px !important;
 }
 
 .Frame2{
@@ -137,18 +165,19 @@ html {
 
 
 .JustKingContent{
-    width: 1360px !important;
+    width: 1212px !important;
 }
 
 .Frame36{
-    padding: 32px;
-    width: 640px !important;
+    padding: 32px 0;
+    width: 540px !important;
     margin-left: 56px !important;
 }
 
 .BotEsContato{
     align-self: auto !important;
-    width: 1386px;
+    justify-content: center !important;
+    width: 1212px;
 }
 
 .Subtract{
@@ -176,7 +205,7 @@ html {
 }
 
 .Frame37{
-    gap: normal !important;
+    gap: 28px !important;
 }
 
 .Frame10{
@@ -205,6 +234,7 @@ html {
 
 .Language{
     margin-top: -2px !important;
+    display: flex;
 }
 
 .NavButton{
@@ -243,4 +273,348 @@ html {
     transition-delay: .01s;
     cursor: pointer !important;
     scale: 1.1;
+}
+
+.BotOPlayJustKing{
+    width: 320px !important;
+}
+
+.Justkingiconlist{
+    width: 520px !important;
+}
+
+
+@media screen and (max-width: 1250px){
+    
+    body{
+        min-width: 360px !important;
+    }
+    
+    .Linebreak{
+        width: 100% !important;
+    }
+
+    #GamesTab{
+        height: 1280px !important;
+    }
+
+    .Group8{
+        top: 750px !important;
+    }
+
+    .VideoFrame{
+        height: 339px !important;
+        width: 591px !important;
+        margin: 0px 160px !important;
+        background: none !important;
+    }
+
+    .Frame27{
+        height: 339px !important;
+        width: 591px !important;
+        margin: 32px 160px !important;
+    }
+
+    .Frame36{
+        padding: 64px 0 !important;
+        margin-left: 0px !important;
+    }
+
+    .Frame37{
+        display: block !important;
+        height: 105% !important;
+        width: 912px !important;
+    }
+
+    .Rectangle5{
+        width: 591px !important;
+    }
+
+    .Frame1{
+        width: 551px !important;
+    }
+
+    .JustKingContent{
+        width: 912px !important;
+    }
+
+    .Justkingiconlist{
+        width: 540px !important;
+        padding-top: 0 !important;
+        justify-content: center !important;
+        gap: 160px !important;
+    }
+
+    .BotOPlayJustKing{
+        width: 240px !important;
+    }
+
+    .ContentVish{
+        width: 912px !important;
+        height: 1280px !important;
+        gap: 64px !important;
+        display: contents !important;
+    }
+
+    .SobreTab{
+        width: 912px !important;
+        height: 1280px !important;
+    }
+
+    .BotEsContato{
+        display: contents !important;
+        justify-content: center !important;
+        width: 80% !important;
+    }
+
+    #ContactTab{
+        height: 1280px !important;
+    }
+
+    .Jobstext{
+        width: 912px !important;
+    }
+
+    
+    .HeroesBanner{
+        left: auto !important;
+        width: 90% !important;
+    }
+
+    .Group2{
+        left: 82.7% !important;
+    }
+    .TTuloContato{
+        width: 100% !important;
+    }
+
+    .TTuloPresskit{
+        width: 100% !important;
+    }
+
+    .TTuloJobs{
+        width: 100% !important;
+    }
+
+    .Content{
+        width: 90% !important;
+        left: 5% !important;
+    }
+    .Linebreak{
+        width: 100% !important;
+    }
+
+    .Gamessectiontitle{
+        font-size: 32px !important;
+    }
+
+    .Aboutsectiontitle{
+        font-size: 32px !important;
+    }
+
+    .Contactsectiontitle{
+        font-size: 32px !important;
+    }
+
+    .Presskitsectiontitle{
+        font-size: 32px !important;
+    }
+
+    .Jobssectiontitle{
+        font-size: 32px !important;
+    }
+
+    .HeroesBanner{
+        height: auto !important;
+        width: 80% !important;
+    }
+
+    .Content{
+        gap: 64px !important;
+        width: 90% !important;
+        left: 28px !important;
+    }
+
+    .VideoFrame{
+        width: 90% !important;
+        height: auto !important;
+        margin: 0 !important;
+    }
+
+    .Frame27{
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    .Rectangle5{
+        width: 80% !important;
+        height: 380px !important;
+        margin: 16px 5% !important;
+    }
+
+    .VideoThumbnail{
+        width: 100% !important;
+        height: auto !important;
+        position: relative !important;
+    }
+
+    .JustKingTitle{
+        width: 100% !important;
+    }
+
+    .Justkingqr{
+        left: 85% !important;
+        width: 13% !important;
+        height: auto !important;
+    }
+
+    .TTuloVish{
+        width: 100% !important;
+    }
+
+    .JustKingContent{
+        width: 90% !important;
+    }
+
+    .VishGameStudio{
+        font-size: 28px !important;
+    }
+
+    .Frame1{
+        padding: 0 !important;
+        width: 80% !important;
+        display: contents !important;
+    }
+
+    .Gamestexttitle{
+        text-align: center;
+    }
+
+    .Justkingiconlist{
+        display: contents !important;
+    }
+
+    .Justkingicons{
+        margin: 0 auto !important;
+    }
+    
+    .TextoVish{
+        width: 90% !important;
+    }
+    
+    .Frame2{
+        width: 100% !important;
+        margin-top: 0px !important;
+        height: 260px !important;
+    }
+
+    .DivContato{
+        margin-top: 0px !important;
+    }
+
+    .BotODiscord{
+        width: 90% !important;
+        padding: 24px 0 !important;
+    }
+
+    .BotOSteam{
+        width: 90% !important;
+        padding: 24px 0 !important;
+    }
+
+    .BotOEMail{
+        width: 90% !important;
+        padding: 24px 0 !important;
+    }
+
+    .DivVish{
+        gap: 32px !important;
+        height: 1660px !important;
+    }
+
+    .Presskittextvish{
+        text-align: center !important;
+    }
+
+    .Presskittextking{
+        text-align: center !important;
+    }
+
+    .Frame36{
+        width: 100% !important;
+    }
+
+    .Jobstext{
+        width: 90% !important;
+    }
+
+    .FotosVish{
+        gap: 32px !important;
+        margin-top: 32px !important;
+    }
+    
+    .Frame37{
+        width: 100% !important;
+        height: 130% !important;
+    }
+
+    .HeroesBackground{
+        height: auto !important;
+        width: 90% !important;
+    }
+
+    .VideoFrame{
+        width: auto !important;
+        height: auto !important;
+        margin: 0 !important;
+    }
+
+    .HomeExport{
+        height: 4495px !important;
+    }
+
+    .Footerart{
+        position:absolute !important;
+        bottom:0 !important;
+    }
+
+    .Footer{
+        position:absolute !important;
+        bottom:0 !important;
+    }
+
+    .HeroesBackground{
+        position:absolute !important;
+        bottom: 50px !important;
+    }
+
+    .Frame3{
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .Frame18{
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .Group10{
+        display: none;
+    }
+
+    .Group2{
+        display: none;
+    }
+
+    .Group4{
+        display: none;
+    }
+
+    .Group8{
+        display: none;
+    }
+
+    .Group7{
+        display: none;
+    }
 }

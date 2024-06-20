@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function(){
   element[0].setAttribute("id", "GamesTab");
   var element = document.getElementsByClassName("DivVish");
   element[0].setAttribute("id", "SobreTab");
+  var element = document.getElementsByClassName("TTuloVish");
+  element[0].setAttribute("id", "SobreTabTarget");
   var element = document.getElementsByClassName("DivContato");
   element[0].setAttribute("id", "ContactTab");
   var element = document.getElementsByClassName("DivPresskit");
@@ -29,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
   var element = document.getElementsByClassName("Sobre");
   element[0].classList.add("NavButton");
-  element[0].addEventListener('click', function() { functionforscroll("SobreTab")}, false);
+  element[0].addEventListener('click', function() { functionforscroll("SobreTabTarget")}, false);
 
   var element = document.getElementsByClassName("Contato");
   element[0].classList.add("NavButton");

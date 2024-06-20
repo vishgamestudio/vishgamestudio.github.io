@@ -13,9 +13,13 @@ document.addEventListener("DOMContentLoaded", function(){
 
   var languageIcon = document.createElement('i');
   languageIcon.className = "fas fa-globe-americas";
+  var languageOutput = document.createElement('div');
+  languageOutput.innerHTML = "EN";
+  languageOutput.className = "LanguageIndicator";
   var languageDiv = document.getElementsByClassName("Language");
   languageDiv[0].innerHTML = "";
   languageDiv[0].appendChild(languageIcon);
+  languageDiv[0].appendChild(languageOutput);
   
   $(".Discordicon").attr("src","img/figma/DiscordIcon.png");
   $(".Steamicon").attr("src","img/figma/SteamIcon.png");
