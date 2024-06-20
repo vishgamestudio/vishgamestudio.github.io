@@ -287,7 +287,7 @@ html {
 @media screen and (max-width: 1250px){
     
     body{
-        min-width: 360px !important;
+        min-width: 460px !important;
     }
     
     .Linebreak{
@@ -295,7 +295,7 @@ html {
     }
 
     #GamesTab{
-        height: 1280px !important;
+        height: 100% !important;
     }
 
     .Group8{
@@ -309,20 +309,8 @@ html {
         background: none !important;
     }
 
-    .Frame27{
-        height: 339px !important;
-        width: 591px !important;
-        margin: 32px 160px !important;
-    }
-
-    .Frame36{
-        padding: 64px 0 !important;
-        margin-left: 0px !important;
-    }
-
     .Frame37{
         display: block !important;
-        height: 105% !important;
         width: 912px !important;
     }
 
@@ -334,19 +322,9 @@ html {
         width: 551px !important;
     }
 
-    .JustKingContent{
-        width: 912px !important;
-    }
-
-    .Justkingiconlist{
-        width: 540px !important;
-        padding-top: 0 !important;
-        justify-content: center !important;
-        gap: 160px !important;
-    }
-
     .BotOPlayJustKing{
         width: 240px !important;
+        margin: 32px !important;
     }
 
     .ContentVish{
@@ -432,7 +410,7 @@ html {
     .Content{
         gap: 64px !important;
         width: 90% !important;
-        left: 28px !important;
+        left: 5% !important;
     }
 
     .VideoFrame{
@@ -444,6 +422,7 @@ html {
     .Frame27{
         margin: 0 !important;
         width: 100% !important;
+        height: min-content !important;
     }
 
     .Rectangle5{
@@ -474,6 +453,7 @@ html {
 
     .JustKingContent{
         width: 90% !important;
+        display: grid !important;
     }
 
     .VishGameStudio{
@@ -482,8 +462,9 @@ html {
 
     .Frame1{
         padding: 0 !important;
-        width: 80% !important;
-        display: contents !important;
+        width: 100% !important;
+        display: grid !important;
+        height: 100% !important;
     }
 
     .Gamestexttitle{
@@ -491,7 +472,12 @@ html {
     }
 
     .Justkingiconlist{
-        display: contents !important;
+        display: grid !important;
+        height: 128px !important;
+        width: 100% !important;
+        padding-top: 0 !important;
+        justify-content: center !important;
+        gap: 10% !important;
     }
 
     .Justkingicons{
@@ -542,6 +528,8 @@ html {
 
     .Frame36{
         width: 100% !important;
+        margin-left: 0px !important;
+        padding-bottom: 0 !important;
     }
 
     .Jobstext{
@@ -555,7 +543,7 @@ html {
     
     .Frame37{
         width: 100% !important;
-        height: 130% !important;
+        height: 100% !important;
     }
 
     .HeroesBackground{
@@ -616,5 +604,17 @@ html {
 
     .Group7{
         display: none;
+    }
+}
+
+
+@media screen and (max-width: 735px){
+    .NavButton{
+        font-size: 12px !important;
+    }
+
+    .NavMenu{
+        padding: 12px 0 !important;
+        gap: 4px !important;
     }
 }
