@@ -234,7 +234,8 @@ html {
 
 .Language{
     margin-top: -2px !important;
-    display: flex;
+    display: flex !important;
+    align-content: center !important;
 }
 
 .NavButton{
