@@ -242,6 +242,7 @@ html {
     transition-duration: .25s !important;
     text-align: center;
     width: 84px !important;
+    align-content: center !important;
 }
 
 .NavButton:hover{
