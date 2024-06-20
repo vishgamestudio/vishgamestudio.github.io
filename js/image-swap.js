@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
   $(".IconeFinal1").attr("src","img/figma/vish.png");
   $(".King1").attr("src","img/figma/king.png");
   $(".Subtract").attr("src","img/figma/button-l.png");
-  $(".VideoThumbnail").attr("src","img/figma/king.gif");
+  $(".VideoThumbnail").attr("src","img/figma/King.gif");
   $(".Classgif").attr("src","img/figma/Classes.gif");
 
   var languageIcon = document.createElement('i');
