@@ -539,7 +539,7 @@ html {
 
     .FotosVish{
         gap: 32px !important;
-        margin-top: 32px !important;
+        height: auto !important;
     }
     
     .Frame37{
