@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -9,63 +10,282 @@
     <link rel="stylesheet" href="css/master.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/b6811bf3b3.js" crossorigin="anonymous"></script>
+    <!--- SITE FONT IMPORT --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--- SELF SETUP --->
+    <script src="js/image-swap.js"></script>
+    <script src="js/button-setup.js"></script>
+    <script src="js/translation.js"></script>
 </head>
 
 <body>
-    <header>
-        <article class="container">
-            <nav class="menu">
-                <a id="logo" href="#">
-                    <img class="image_on" src="img/Logo/vish-logo.png" alt="logo" /><img class="image_off" src="img/Logo/vish-name.png" alt="logo"/>
-                </a>
-                <div id="mobile">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <script type="text/javascript">
-                    $(window).resize(() => {
-                        const width = $(window).width();
-                        if (width > 1154)
-                            $('#menuOptions').css('display', 'block');
-                        else
-                            $('#menuOptions').css('display', 'none');
-                    });
-                    $('#mobile').on('click', function () {
-                        $('#menuOptions').toggle();
-                    });
-                </script>
-                <ul id="menuOptions">
-                    <a href="#">
-                        <li>Games</li>
-                    </a>
-                    <a href="#">
-                        <li>About</li>
-                    </a>
-                    <a href="#">
-                        <li>Contact</li>
-                    </a>
-                    <a href="#">
-                        <li>Presskit</li>
-                    </a>
-                    <a href="#">
-                        <li>Jobs</li>
-                    </a>
-                </ul>
-            </nav>
-            <div id="info">
-                <ul>
-                    <li><a href="https://store.steampowered.com/app/1059980/Just_King/"><i class="fab fa-steam"></i></a></li>
-                    <li><a href="https://twitter.com/vishgamestudio"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.instagram.com/vishgamestudio"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://www.linkedin.com/company/vishgamestudio"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="https://itch.io/profile/vishgamestudio"><i class="fab fa-itch-io"></i></a></li>
-                    <li><a href="https://www.twitch.tv/vishgamestudio"><i class="fab fa-twitch"></i></a></li>
-                </ul>
+  <div class="HomeExport" style="width: 1387px; height: 3997px; position: relative; background: black">
+    <img class="HeroesBackground" style="width: 1280px; height: 400px; left: 54px; top: 3530px; position: absolute" src="https://via.placeholder.com/1280x400" />
+    <img class="BackgroundPage" style="width: 1386px; height: 3997px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/1386x3997" />
+    <div class="Footer" style="width: 1387px; padding-top: 24px; padding-bottom: 24px; left: 0px; top: 3929px; position: absolute; background: rgba(255, 255, 255, 0.10); backdrop-filter: blur(4px); justify-content: center; align-items: center; display: inline-flex">
+      <div class="VishGameStudio2022" style="color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">VISH GAME STUDIO © 2022</div>
+    </div>
+    <div class="Group2" style="width: 110px; height: 14px; left: 838px; top: 1296px; position: absolute">
+      <div class="Rectangle9" style="width: 80px; height: 4px; left: 0px; top: 0px; position: absolute; background: white"></div>
+      <div class="Rectangle11" style="width: 12px; height: 4px; left: 86px; top: 0px; position: absolute; background: white"></div>
+      <div class="Rectangle12" style="width: 4px; height: 4px; left: 106px; top: 0px; position: absolute; background: white"></div>
+      <div class="Rectangle10" style="width: 80px; height: 4px; left: 28px; top: 10px; position: absolute; background: white"></div>
+    </div>
+    <div class="Group4" style="width: 108px; height: 14px; left: -23px; top: 2772px; position: absolute">
+      <div class="Rectangle9" style="width: 80px; height: 4px; left: 0px; top: 0px; position: absolute; background: white"></div>
+      <div class="Rectangle11" style="width: 12px; height: 4px; left: 84px; top: 0px; position: absolute; background: white"></div>
+      <div class="Rectangle12" style="width: 4px; height: 4px; left: 104px; top: 0px; position: absolute; background: white"></div>
+      <div class="Rectangle10" style="width: 80px; height: 4px; left: 28px; top: 10px; position: absolute; background: white"></div>
+    </div>
+    <div class="Group7" style="width: 85px; height: 23px; left: 1291px; top: 3284px; position: absolute">
+      <div class="Rectangle9" style="width: 26px; height: 4px; left: 31px; top: 9px; position: absolute; background: white"></div>
+      <div class="Rectangle11" style="width: 12px; height: 4px; left: 61px; top: 9px; position: absolute; background: white"></div>
+      <div class="Rectangle13" style="width: 20px; height: 4px; left: 65px; top: 0px; position: absolute; background: white"></div>
+      <div class="Rectangle12" style="width: 4px; height: 4px; left: 81px; top: 9px; position: absolute; background: white"></div>
+      <div class="Rectangle10" style="width: 83px; height: 4px; left: 0px; top: 19px; position: absolute; background: white"></div>
+    </div>
+    <div class="Group8" style="width: 85px; height: 23px; left: 1297px; top: 860px; position: absolute">
+      <div class="Rectangle9" style="width: 26px; height: 4px; left: 31px; top: 9px; position: absolute; background: white"></div>
+      <div class="Rectangle11" style="width: 12px; height: 4px; left: 61px; top: 9px; position: absolute; background: white"></div>
+      <div class="Rectangle13" style="width: 20px; height: 4px; left: 65px; top: 0px; position: absolute; background: white"></div>
+      <div class="Rectangle12" style="width: 4px; height: 4px; left: 81px; top: 9px; position: absolute; background: white"></div>
+      <div class="Rectangle10" style="width: 83px; height: 4px; left: 0px; top: 19px; position: absolute; background: white"></div>
+    </div>
+    <div class="Content" style="width: 1387px; height: 3411px; left: 0px; top: 137px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: center; gap: 128px; display: inline-flex">
+      <div class="MainBanner" style="height: 569px; flex-direction: column; justify-content: flex-start; align-items: center; display: flex">
+        <div class="VishLogo" style="flex-direction: column; justify-content: flex-start; align-items: center; display: flex">
+          <img class="VishLogo2" style="width: 149px; height: 149px" src="https://via.placeholder.com/149x149" />
+          <div class="VishGameStudio" style="color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word"> - VISH GAME STUDIO -</div>
+        </div>
+        <img class="HeroesBanner" style="width: 1280px; height: 400px" src="https://via.placeholder.com/1280x400" />
+      </div>
+      <div class="DivJustKing" style="height: 479px; flex-direction: column; justify-content: center; align-items: center; gap: 46px; display: flex">
+        <div class="JustKingTitle" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+          <div class="Gamessectiontitle" style="color: white; font-size: 64px; font-family: Montserrat; font-weight: 200; word-wrap: break-word">JUST KING</div>
+          <div class="Linebreak" style="width: 1212px; justify-content: flex-start; align-items: center; gap: 6px; display: inline-flex">
+            <div class="Line1" style="flex: 1 1 0; height: 0px; border: 1px white solid"></div>
+            <div class="Group1" style="width: 8px; height: 16px; position: relative">
+              <div class="Rectangle4" style="width: 4px; height: 4px; left: 4px; top: 0px; position: absolute; background: white"></div>
+              <div class="Rectangle2" style="width: 4px; height: 4px; left: 4px; top: 12px; position: absolute; background: white"></div>
+              <div class="Rectangle3" style="width: 4px; height: 4px; left: 0px; top: 8px; position: absolute; background: white"></div>
             </div>
-        </article>
-    </header>
-    <section id="banner"></section>
-    </section>
-    <footer>VISH GAME STUDIO © 2022</footer>
+          </div>
+        </div>
+        <div class="JustKingContent" style="width: 1230px; justify-content: space-between; align-items: center; display: inline-flex">
+          <div class="Frame37" style="height: 339px; justify-content: center; align-items: center; gap: 116px; display: flex">
+            <div class="VideoFrame" style="width: 591px; height: 339px; position: relative; background: white">
+              <img class="VideoThumbnail" style="width: 591px; height: 339px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/591x339" />
+              <img class="Justkingqr" style="width: 114px; height: 114px; left: 467px; top: 9px; position: absolute" src="https://via.placeholder.com/114x114" />
+            </div>
+            <div class="Frame27" style="height: 279px; flex-direction: column; justify-content: flex-start; align-items: flex-end; display: inline-flex">
+              <div class="Rectangle5" style="width: 568px; height: 279px; background: rgba(255, 255, 255, 0.10)"></div>
+              <div class="Frame36" style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: flex">
+                <div class="Frame1" style="height: 316px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
+                  <div class="Gamestexttitle" style="align-self: stretch; color: white; font-size: 24px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">O moedor de hordas mais fofo que existe no formato roguelite.</div>
+                  <div class="Gamestext1" style="align-self: stretch; text-align: justify; color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Just King conta com mais de 120 mil cópias vendidas na Steam, é o nosso primeiro jogo publicado comercialmente.</div>
+                  <div class="Gamestext2" style="align-self: stretch; text-align: justify; color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Nesse jogo você montará seu grupo de heróis para proteger o rei se aventurando por terras fantásticas, lutando contra reis temíveis e exércitos mortais. Use seu tesouro estrategicamente para contratar e fortalecer heróis poderosos... Ou o Bardo.</div>
+                  <div class="Justkingiconlist" style="width: 640px; padding-top: 8px; padding-bottom: 8px; justify-content: flex-end; align-items: flex-start; gap: 24px; display: inline-flex">
+                    <div class="BotOPlayJustKing" style="width: 497px; align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                      <div class="Frame24" style="box-shadow: 2px 4px 0px #D36D6D; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                        <img class="Subtract" style="width: 14px; height: 50px" src="https://via.placeholder.com/14x50" />
+                        <div class="Frame13" style="width: 198px; align-self: stretch; padding: 10px; background: #D10000; justify-content: center; align-items: center; gap: 10px; display: flex">
+                          <div class="VejaOJogoNaSteam" style="color: white; font-size: 16px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">Veja o jogo na Steam!</div>
+                        </div>
+                        <img class="Subtract" style="width: 14px; height: 50px; transform: rotate(-180deg); transform-origin: 0 0" src="https://via.placeholder.com/14x50" />
+                      </div>
+                    </div>
+                    <div class="Justkingicons" style="justify-content: flex-end; align-items: flex-start; gap: 24px; display: flex">
+                      <img class="Justkingsteamicon" style="width: 42px; height: 42px" src="https://via.placeholder.com/42x42" />
+                      <img class="Justkingyoutubeicon" style="width: 42px; height: 42px" src="https://via.placeholder.com/42x42" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="DivVish" style="height: 527px; flex-direction: column; justify-content: center; align-items: center; gap: 84px; display: flex">
+        <div class="TTuloVish" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+          <div class="Aboutsectiontitle" style="color: white; font-size: 64px; font-family: Montserrat; font-weight: 200; word-wrap: break-word">A VISH</div>
+          <div class="Linebreak" style="width: 1212px; justify-content: flex-start; align-items: center; gap: 6px; display: inline-flex">
+            <div class="Line1" style="flex: 1 1 0; height: 0px; border: 1px white solid"></div>
+            <div class="Group1" style="width: 8px; height: 16px; position: relative">
+              <div class="Rectangle4" style="width: 4px; height: 4px; left: 4px; top: 0px; position: absolute; background: white"></div>
+              <div class="Rectangle2" style="width: 4px; height: 4px; left: 4px; top: 12px; position: absolute; background: white"></div>
+              <div class="Rectangle3" style="width: 4px; height: 4px; left: 0px; top: 8px; position: absolute; background: white"></div>
+            </div>
+          </div>
+        </div>
+        <div class="ContentVish" style="width: 1212px; justify-content: space-between; align-items: center; display: inline-flex">
+          <div class="TextoVish" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+            <div class="Group10" style="width: 701px; height: 349px; position: relative">
+              <div class="Group9" style="width: 610px; height: 343px; left: 91px; top: 6px; position: absolute">
+                <div class="Rectangle6" style="width: 376px; height: 185px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.10)"></div>
+                <div class="Rectangle7" style="width: 376px; height: 185px; left: 234px; top: 158px; position: absolute; background: rgba(255, 255, 255, 0.10)"></div>
+              </div>
+              <div class="Group3" style="width: 108px; height: 14px; left: 0px; top: 283px; position: absolute">
+                <div class="Rectangle9" style="width: 80px; height: 4px; left: 0px; top: 0px; position: absolute; background: white"></div>
+                <div class="Rectangle11" style="width: 12px; height: 4px; left: 84px; top: 0px; position: absolute; background: white"></div>
+                <div class="Rectangle12" style="width: 4px; height: 4px; left: 104px; top: 0px; position: absolute; background: white"></div>
+                <div class="Rectangle10" style="width: 80px; height: 4px; left: 28px; top: 10px; position: absolute; background: white"></div>
+              </div>
+              <div class="Group5" style="width: 83px; height: 14px; left: 406px; top: 0px; position: absolute">
+                <div class="Rectangle9" style="width: 26px; height: 4px; left: 29px; top: 0px; position: absolute; background: white"></div>
+                <div class="Rectangle11" style="width: 12px; height: 4px; left: 59px; top: 0px; position: absolute; background: white"></div>
+                <div class="Rectangle12" style="width: 4px; height: 4px; left: 79px; top: 0px; position: absolute; background: white"></div>
+                <div class="Rectangle10" style="width: 83px; height: 4px; left: 0px; top: 10px; position: absolute; background: white"></div>
+              </div>
+            </div>
+            <div class="Frame2" style="height: 177px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
+              <div class="Abouttexttitle" style="align-self: stretch; color: white; font-size: 24px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">Sobre nosso estúdio</div>
+              <div class="Abouttext1" style="align-self: stretch; color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Somos uma empresa brasileira localizada na Bahia, fundada em 2022, produzimos jogos para Steam e estamos planejando expandir em breve.</div>
+              <div class="Abouttext2" style="align-self: stretch; color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Nosso foco é fazer jogos divertidos, interessantes e com design marcante. Atualmente trabalhamos com uma publisher que faz a distribuição dos nossos jogos na Ásia e fazemos self publishing no resto do mundo.</div>
+            </div>
+          </div>
+          <div class="FotosVish" style="height: 244px; justify-content: space-between; align-items: flex-end; display: flex">
+            <div class="Frame22" style="width: 161px; height: 244px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: inline-flex">
+              <div class="Frame3" style="width: 161px; height: 161px; position: relative; background: white; box-shadow: 2px 2px 0px 4px #D36D6D; border-radius: 180px"></div>
+              <div class="Frame21" style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
+                <div class="EnriqueWicks" style="color: white; font-size: 14px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">Enrique Wicks</div>
+                <div class="CoFundadorGameDesigner" style="width: 119px; text-align: center; color: white; font-size: 14px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Co-fundador, game designer</div>
+              </div>
+            </div>
+            <div class="Frame19" style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: inline-flex">
+              <div class="Frame18" style="width: 161px; height: 161px; position: relative; background: white; box-shadow: 2px 2px 0px 4px #D36D6D; border-radius: 180px"></div>
+              <div class="Frame20" style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
+                <div class="IgorFerreira" style="color: white; font-size: 14px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">Igor Ferreira</div>
+                <div class="CoFundadorGameDesigner" style="width: 119px; text-align: center; color: white; font-size: 14px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Co-fundador, game designer</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="DivContato" style="width: 1386px; height: 459px; flex-direction: column; justify-content: center; align-items: center; gap: 36px; display: flex">
+        <div class="TTuloContato" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+          <div class="Contactsectiontitle" style="color: white; font-size: 64px; font-family: Montserrat; font-weight: 200; word-wrap: break-word">Gostou? Contate-nos!</div>
+          <div class="Linebreak" style="width: 1212px; justify-content: flex-start; align-items: center; gap: 6px; display: inline-flex">
+            <div class="Line1" style="flex: 1 1 0; height: 0px; border: 1px white solid"></div>
+            <div class="Group1" style="width: 8px; height: 16px; position: relative">
+              <div class="Rectangle4" style="width: 4px; height: 4px; left: 4px; top: 0px; position: absolute; background: white"></div>
+              <div class="Rectangle2" style="width: 4px; height: 4px; left: 4px; top: 12px; position: absolute; background: white"></div>
+              <div class="Rectangle3" style="width: 4px; height: 4px; left: 0px; top: 8px; position: absolute; background: white"></div>
+            </div>
+          </div>
+        </div>
+        <div class="TextoContato" style="justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+          <div class="Contacttext" style="color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Estamos disponíveis para contato através das nossas plataformas.</div>
+        </div>
+        <div class="BotEsContato" style="padding-left: 64px; padding-right: 64px; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
+          <div class="BotODiscord" style="width: 403.33px; padding-left: 48px; padding-right: 48px; padding-top: 24px; padding-bottom: 24px; background: rgba(255, 255, 255, 0.10); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 8px; flex-direction: column; justify-content: center; align-items: center; gap: 24px; display: inline-flex">
+            <div class="Discord" style="color: white; font-size: 24px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">Discord</div>
+            <div class="Frame14" style="width: 295px; justify-content: space-between; align-items: center; display: inline-flex">
+              <img class="Discordicon" style="width: 114px; height: 114px" src="https://via.placeholder.com/114x114" />
+              <img class="Discordqr" style="width: 114px; height: 114px" src="https://via.placeholder.com/114x114" />
+            </div>
+            <div class="Discordtext" style="color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">O discord da nossa comunidade.</div>
+          </div>
+          <div class="BotOEMail" style="width: 403.33px; padding-left: 48px; padding-right: 48px; padding-top: 24px; padding-bottom: 24px; background: rgba(255, 255, 255, 0.10); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 8px; flex-direction: column; justify-content: center; align-items: center; gap: 24px; display: inline-flex">
+            <div class="EMail" style="color: white; font-size: 24px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">E-mail</div>
+            <div class="Frame14" style="width: 295px; justify-content: space-between; align-items: center; display: inline-flex">
+              <img class="EMailicon" style="width: 114px; height: 114px" src="https://via.placeholder.com/114x114" />
+              <img class="EMailqr" style="width: 114px; height: 114px" src="https://via.placeholder.com/114x114" />
+            </div>
+            <div class="Emailtext" style="color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Nos envie um e-mail!</div>
+          </div>
+          <div class="BotOSteam" style="width: 403.33px; padding-left: 48px; padding-right: 48px; padding-top: 24px; padding-bottom: 24px; background: rgba(255, 255, 255, 0.10); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 8px; flex-direction: column; justify-content: center; align-items: center; gap: 24px; display: inline-flex">
+            <div class="Steam" style="color: white; font-size: 24px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">Steam</div>
+            <div class="Frame14" style="width: 295px; justify-content: space-between; align-items: center; display: inline-flex">
+              <img class="Steamicon" style="width: 114px; height: 114px" src="https://via.placeholder.com/114x114" />
+              <img class="Steamqr" style="width: 114px; height: 114px" src="https://via.placeholder.com/114x114" />
+            </div>
+            <div class="Steamtext" style="color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Nosso fórum na Steam.</div>
+          </div>
+        </div>
+      </div>
+      <div class="DivPresskit" style="height: 506px; flex-direction: column; justify-content: center; align-items: center; gap: 36px; display: flex">
+        <div class="TTuloPresskit" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+          <div class="Presskitsectiontitle" style="color: white; font-size: 64px; font-family: Montserrat; font-weight: 200; word-wrap: break-word">Presskit</div>
+          <div class="Linebreak" style="width: 1212px; justify-content: flex-start; align-items: center; gap: 6px; display: inline-flex">
+            <div class="Line1" style="flex: 1 1 0; height: 0px; border: 1px white solid"></div>
+            <div class="Group1" style="width: 8px; height: 16px; position: relative">
+              <div class="Rectangle4" style="width: 4px; height: 4px; left: 4px; top: 0px; position: absolute; background: white"></div>
+              <div class="Rectangle2" style="width: 4px; height: 4px; left: 4px; top: 12px; position: absolute; background: white"></div>
+              <div class="Rectangle3" style="width: 4px; height: 4px; left: 0px; top: 8px; position: absolute; background: white"></div>
+            </div>
+          </div>
+        </div>
+        <div class="TextoPresskit" style="justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+          <div class="Presskittext" style="color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Aqui você vai encontrar nossos bereguedês!</div>
+        </div>
+        <div class="BotEsPresskit" style="align-self: stretch; justify-content: center; align-items: center; gap: 24px; display: inline-flex">
+          <div class="VishPresskit" style="width: 386px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 40px; display: inline-flex">
+            <div class="Frame9" style="width: 161px; height: 161px; background: white; border-radius: 180px; overflow: hidden; justify-content: center; align-items: center; display: inline-flex">
+              <img class="IconeFinal1" style="width: 161px; height: 161px" src="https://via.placeholder.com/161x161" />
+            </div>
+            <div class="Presskittextvish" style="color: white; font-size: 24px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">Presskit da Vish</div>
+            <div class="Frame11" style="box-shadow: 2px 4px 0px #D36D6D; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+              <img class="Subtract" style="width: 14px; height: 50px" src="https://via.placeholder.com/14x50" />
+              <div class="Frame13" style="width: 84px; align-self: stretch; padding: 10px; background: #D10000; justify-content: center; align-items: center; gap: 10px; display: flex">
+                <div class="Baixar" style="color: white; font-size: 16px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">BAIXAR</div>
+              </div>
+              <img class="Subtract" style="width: 14px; height: 50px; transform: rotate(-180deg); transform-origin: 0 0" src="https://via.placeholder.com/14x50" />
+            </div>
+          </div>
+          <div class="JustKingPresskit" style="width: 386px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 40px; display: inline-flex">
+            <div class="Frame10" style="width: 161px; height: 161px; padding-top: 24px; padding-bottom: 23px; padding-left: 24px; padding-right: 23px; background: #C34D23; border-radius: 180px; overflow: hidden; justify-content: center; align-items: center; display: inline-flex">
+              <img class="King1" style="width: 114px; height: 114px" src="https://via.placeholder.com/114x114" />
+            </div>
+            <div class="Presskittextking" style="color: white; font-size: 24px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">Presskit do Just King</div>
+            <div class="Frame12" style="box-shadow: 2px 4px 0px #D36D6D; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+              <img class="Subtract" style="width: 14px; height: 50px" src="https://via.placeholder.com/14x50" />
+              <div class="Frame13" style="width: 84px; align-self: stretch; padding: 10px; background: #D10000; justify-content: center; align-items: center; gap: 10px; display: flex">
+                <div class="Baixar" style="color: white; font-size: 16px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">BAIXAR</div>
+              </div>
+              <img class="Subtract" style="width: 14px; height: 50px; transform: rotate(-180deg); transform-origin: 0 0" src="https://via.placeholder.com/14x50" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="DivJobs" style="height: 356px; flex-direction: column; justify-content: center; align-items: center; gap: 36px; display: flex">
+        <div class="TTuloJobs" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+          <div class="Jobssectiontitle" style="color: white; font-size: 64px; font-family: Montserrat; font-weight: 200; word-wrap: break-word">Jobs</div>
+          <div class="Linebreak" style="width: 1212px; justify-content: flex-start; align-items: center; gap: 6px; display: inline-flex">
+            <div class="Line1" style="flex: 1 1 0; height: 0px; border: 1px white solid"></div>
+            <div class="Group1" style="width: 8px; height: 16px; position: relative">
+              <div class="Rectangle4" style="width: 4px; height: 4px; left: 4px; top: 0px; position: absolute; background: white"></div>
+              <div class="Rectangle2" style="width: 4px; height: 4px; left: 4px; top: 12px; position: absolute; background: white"></div>
+              <div class="Rectangle3" style="width: 4px; height: 4px; left: 0px; top: 8px; position: absolute; background: white"></div>
+            </div>
+          </div>
+        </div>
+        <div class="TextoJobs" style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 20px; display: flex">
+          <div class="Jobstext" style="color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Procura por vagas? Achooou! Preencha o formulário abaixo para entrar para o nosso banco de talentos!</div>
+          <img class="Classgif" style="width: 300px; height: 100px" src="https://via.placeholder.com/300x100" />
+        </div>
+        <div class="BotOJobs" style="align-self: stretch; height: 50px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 10px; display: flex">
+          <div class="Formbutton" style="box-shadow: 2px 4px 0px #D36D6D; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+            <img class="Subtract" style="width: 14px; height: 50px" src="https://via.placeholder.com/14x50" />
+            <div class="Frame13" style="width: 244px; align-self: stretch; padding: 10px; background: #D10000; justify-content: center; align-items: center; gap: 10px; display: flex">
+              <div class="PreencherFormulRio" style="color: white; font-size: 16px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">PREENCHER FORMULÁRIO</div>
+            </div>
+            <img class="Subtract" style="width: 14px; height: 50px; transform: rotate(-180deg); transform-origin: 0 0" src="https://via.placeholder.com/14x50" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="NavMenu" style="width: 1387px; height: 68px; padding-top: 24px; padding-bottom: 24px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.10); backdrop-filter: blur(4px); justify-content: center; align-items: flex-start; gap: 24px; display: inline-flex">
+      <div class="Inicio" style="width: 53px; align-self: stretch; color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">INÍCIO</div>
+      <div class="Games" style="color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">GAMES</div>
+      <div class="Sobre" style="color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">SOBRE</div>
+      <div class="Contato" style="width: 80px; align-self: stretch; color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">CONTATO</div>
+      <div class="Presskit" style="width: 79px; align-self: stretch; color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">PRESSKIT</div>
+      <div class="Jobs" style="width: 44px; align-self: stretch; color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">JOBS</div>
+      <div class="Language" style="width: 20px; align-self: stretch; color: white; font-size: 20px; font-family: Material Icons; font-weight: 400; word-wrap: break-word">language</div>
+    </div>
+  </div>
 </body>
 
 </html>

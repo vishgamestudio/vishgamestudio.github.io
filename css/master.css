@@ -10,537 +10,237 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: 19px;
-    min-width: 260px;
-}
-
-header{
-    width: 100%;
-    background: black;
-    min-width: 260px;
-    color: white;
-    padding: 4px 0;
-    position: fixed;
-}
-
-p{
-    width: 60%;
-    font-size: 16px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-html {background-color: black}
-
-footer{
-    background: black;
-    padding: 10px 0;
-    color: white;
-    margin: auto;
-    text-align: center;
-}
-
-.container{
-    width: 92%;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.space{
-    padding: 0 0 40px 0;
-}
-
-.centralized-content{
-    margin-top: auto;
-}
-
-#banner{
-    width: 100%;
-    height: 926px;
-    background: url('../img/Backgrounds/Default.png');
-    background-size: cover;
-    background-position: bottom;
-}
-
-.menu ul{
-    width: 740px;
-    margin-top: 6px;
-    margin-left: 80px;
-    font-size: 20px;
-    display: block;
-}
-
-.menu ul li{
-    transition: .2s;
-    list-style: none;
-    display: inline-block;
-    color: white;
-    text-transform: uppercase;
-    padding: 10px 15px;
-}
-
-.menu ul li:hover{
-    transition: .2s;
-    color: #f11;
-}
-
-#mobile{
-    display: none;
-    padding-left: 15px;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-nav{
-    float: left;
-}
-
-.image_off, #logo:hover .image_on{
-    float: left;
-    width: 48px;
-    height: 48px;
-    display: none;
-}
-
-.image_on, #logo:hover .image_off{
-    float: left;
-    width: 48px;
-    height: 48px;
-    display: block;
-}
-
-#info{
-    margin-top: 6px;
-    float: right;
-}
-
-#info ul li{
-    display: inline-block;
-    list-style: none;
-    color: white;
-}
-
-#info .fab{
-    transition: .2s;
-    font-size: 22px;
-    color: white;
-    padding: 10px 15px;
-}
-
-#info .fab:hover{
-    transition: .2s;
-    color: #f11;
-}
-
-.titulo{
-    font-size: 22px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #5ebfd0;
-    padding: 50px 0 0 0;
-}
-
-.subtitulo{
-    font-size: 16px;
-    text-align: center;
-    color: #aaa;
-    text-transform: uppercase;
-    padding: 20px 0;
-}
-
-#image{
-    width: 150px;
-    height: 150px;
-    float: right;
-    margin-left: 30px;
-    background: url("../img/img1.png");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#intro{
-    background: #222;
-    color: #aaa;
-    text-align: center;
-}
-
-P{
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-#recentGames{
-    background: #333;
-    color: #fff;
-    text-align: center;
-}
-
-#recentArts{
-    background: #222;
-    color: #fff;
-    text-align: center;
-}
-
-#allPixelArts{
-    background: #333;
-    color: #fff;
-    text-align: center;
-}
-
-.protoberCase{
-    background: #333;
-    color: #fff;
-    text-align: center;
-}
-
-#recentArts .box{
-    border: 5px solid #333;
-    padding: 10px;
-}
-
-.protoberCase .box{
-    border: 5px solid #5ebfd0;
-    padding: 10px;
-}
-
-#allPixelArts .box{
-    border: 5px solid #444;
-    padding: 10px;
-}
-
-#protober2018{
-    background: #222;
-    color: #fff;
-    text-align: center;
-}
-
-#protober2018 .box{
-    border: 5px solid #5ebfd0;
-    padding: 10px;
-}
-
-.box{
-    transition: .2s;
-    width: 260px;
-    margin: 15px 5px;
-    display: inline-block;
-    vertical-align: top;
-    padding: 10px 10px 25px 10px;
-    border: 5px solid #5ebfd0;
-    border-radius: 5px;
-    color: #aaa;
-    background-color: #222;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.box:hover{
-    transition: .2s;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.box h1{
-    text-transform: uppercase;
-    margin-top: 25px;
-    font-size: 25px;
-    padding: 0 0 15px 0;
-    color: #5ebfd0;
-}
-
-#recentGames img{
-    width: 100%;
-    height: 200px;
-    border: 0px solid #fff;
-    border-radius: 5px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#recentArts img{
-    width: 100%;
-    height: 265px;
-    border: 0px solid #fff;
-    border-radius: 5px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#allPixelArts img{
-    width: 100%;
-    height: 265px;
-    border: 0px solid #fff;
-    border-radius: 5px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.protoberCase .box{
-    width: 336px;
-}
-
-.protoberCase img{
-    width: 336px;
-}
-
-.button{
+html {
     background-color: black;
-    color: white;
-    width: 200px;
-    margin: 5px;
-    margin-top: 45px;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 15px 25px;
-    text-transform: uppercase;
-    border-bottom: 4px solid #5ebfd0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.button:hover{
-    border-bottom: 3px solid #a4e5e3;
-    margin-top: 47px;
-    margin-bottom: 4px;
+.NavMenu{
+    width: 100% !important;
+    position: fixed !important;
+    height: 24px !important;
+    z-index: 10;
 }
 
-.button:active{
-    transition: .2s;
-    border-bottom: 1px solid #a4e5e3;
-    margin-top: 49px;
-    margin-bottom: 4px;
+.HomeExport{
+    width: 100% !important;
+    justify-content: center !important;
+    display: inline-flex !important;
 }
 
-.box:active {
-    border-bottom: 1px solid #a4e5e3;
-    margin-top: 20px;
-    margin-bottom: 10px;
+.Footer{
+    width: 100% !important;
+    padding: 16px 0 !important;
+    top: 3950px !important;
 }
 
-#contact h2{
-    font-size: 18px;
+.VishGameStudio2022{
+    font-size: 12px !important;
+}
+
+.Content{
+    width: 100% !important;
+}
+
+.BackgroundPage{
+    width: 100% !important;
+    height: 100% !important;
+    background-repeat: repeat !important;
+    background-image: url(../img/figma/Background.png) !important;
+
+    background-color: black;
+    border: black;
+}
+
+.HeroesBackground{
+    left: auto !important;
+    opacity: 0.3;
+    top: 3568px !important;
+}
+
+.HeroesBanner{
+    left: auto !important;
+}
+
+.VishLogo{
+    width: 100% !important;
+    left: 0px !important;
+}
+
+.DivJustKing{
+    width: 100% !important;
+}
+
+.DivVish{
+    width: 100% !important;
+}
+
+.DivContato{
+    width: 100% !important;
+    margin-top: 96px !important;
+}
+
+.DivPresskit{
+    width: 100% !important;
+}
+
+.DivJobs{
+    width: 100% !important;
+}
+
+.Jobstext{
+    width: 1212px !important;
+    text-align: justify !important;
+}
+
+.Group7{
+    left: 90.7% !important;
+}
+
+.Group2{
+    left: 92.7% !important;
+}
+
+.Group8{
+    left: 6% !important;
+}
+
+.Group4{
+    left: 12% !important;
+}
+
+.VishGameStudio{
+    font-size: 32px !important;
+    font-weight: 150 !important;
+}
+
+.FotosVish{
+    gap: 32px !important;
+}
+
+.Group10{
+    position: absolute !important;
+}
+
+.Rectangle5{
+    position: absolute !important;
+    height: 320px !important;
+}
+
+.Frame1{
+    z-index: 1 !important;
+}
+
+.Frame2{
+    z-index: 1 !important;
+    margin-top: 64px !important;
+}
+
+
+.JustKingContent{
+    width: 1360px !important;
+}
+
+.Frame36{
+    padding: 32px;
+    width: 640px !important;
+    margin-left: 56px !important;
+}
+
+.BotEsContato{
+    align-self: auto !important;
+    width: 1386px;
+}
+
+.Subtract{
+    transform-origin: center !important;
+}
+
+.Frame12{
+    box-shadow: none !important;
+}
+
+.Frame11{
+    box-shadow: none !important;
+}
+
+.Frame24{
+    box-shadow: none !important;
+}
+
+.Formbutton{
+    box-shadow: none !important;
+}
+
+.Frame27{
+    height: 320px !important;
+}
+
+.Frame37{
+    gap: normal !important;
+}
+
+.Frame10{
+    padding: 0 !important;
+}
+
+.Discordicon{
+    width: 114px !important;
+    height: 114px !important;
+}
+
+.Frame3{
+    background-image: url(../img/figma/enrique.png) !important;
+    background-size: cover !important;
+}
+
+.Frame18{
+    background-image: url(../img/figma/igor.png) !important;
+    background-size: cover !important;
+}
+
+.Frame2{
+    text-align: justify !important;
+    width: 800px !important;
+}
+
+.Language{
+    margin-top: -2px !important;
+}
+
+.NavButton{
+    transition-duration: .25s !important;
     text-align: center;
-    color: white;
-    margin-top: 15px;
+    width: 84px !important;
 }
 
-#infoContact{
-    text-align: center;
+.NavButton:hover{
+    transition-delay: .25ms;
+    width: 112px !important;
+    color: #d10000 !important;
+    cursor: pointer !important;
+    font-weight: bold !important;
 }
 
-#infoContact li{
-    display: inline-block;
-    list-style: none;
-    color: white;
+.RoundButton{
+    transition-duration: .2s !important;
+    scale: 1;
 }
 
-#infoContact .fab{
-    transition: .2s;
-    font-size: 22px;
-    color: white;
-    padding: 10px 15px;
-    margin-top: 10px;
+.RoundButton:hover{
+    transition-delay: 10ms;
+    cursor: pointer !important;
+    scale: 1.2;
+
+    overflow:hidden;
 }
 
-#infoContact .fab:hover{
-    transition: .2s;
-    color: #f11;
+.RectButton{
+    transition-duration: .2s !important;
+    scale: 1;
 }
 
-#contactContent{
-    width: 100%;
-    height: 600px;
-    padding-top: 100px;
-    background: url('../img/Backgrounds/King-bg-heroes.png');
-    background-size: cover;
-    background-position: bottom;
-}
-
-
-#logoContact{
-    margin-top: 20px;
-    width: 120px;
-    height: 120px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.lightbox{
-	display: none;
-	position: fixed;
-	z-index: 999;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	top: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.lightbox img {
-	max-width: 90%;
-	height: 80%;
-    margin-top: 5%;
-    padding: 15px;
-    background-color: #111;
-    border: 5px #333 solid;
-}
-
-.lightbox:target {
-	outline: none;
-	display: block;
-}
-
-#allPixelArts{
-    padding-top: 100px;
-}
-
-#introProtober{
-    padding-top: 100px;
-    background: #222;
-    color: #aaa;
-    text-align: center;
-}
-
-#work3DCase {
-    background: #222;
-    color: #fff;
-    text-align: center;
-}
-
-/* Showcase Icons no Menu */
-
-.showcaseGameIcon{
-  margin: 3px;
-  display: inline-block;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  border: none;
-  border-radius: 3px;
-  box-shadow: 0 5px #999;
-  transition: .05s;
-}
-
-.showcaseGameIcon:hover {
-  box-shadow: 0 4px #888;
-  transform: translateY(1px);
-  transition: .05s;
-}
-
-.showcaseGameIcon:active {
-  box-shadow: 0 1px #777;
-  transform: translateY(4px);
-}
-
-#showcaseGameTitle{
-    font-size: 36px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #5ebfd0;
-    padding: 45px 0 20px 0;
-}
-
-hr{
-    margin: 25px;
-}
-
-.showcaseGameIcon{
-    width: 162px !important;
-    height: 100px !important;
-}
-
-#showcaseGameDescription{
-    text-align: center;
-}
-
-@media screen and (max-width: 1154px){
-    body{
-        min-width: 378px;
-    }
-    
-    .menu{
-        min-width: 378px;
-    }
-    
-    .container{
-        width: 100%;
-    }
-
-    .menu{
-        width: 100%;
-        float: left;
-        font-size: 32px;
-        margin-left: 0px;
-    }
-
-    #logo{
-        margin-right: 50px;
-        float: right;
-    }
-
-    .menu ul li{
-        list-style: circle;
-        margin-top: 5px;
-        display: block;
-        padding: 25px 0px 25px 70px;
-        background-color: #333;
-    }
-
-    .menu ul{
-        margin-top: 115px;
-        width: 100%;
-        margin-left: 0px;
-        display: none;
-    }
-
-    #info{
-        display: none;
-    }
-
-    p{
-        width: 90%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .titulo{
-        margin-left: 25px;
-    }
-
-    .subtitulo{
-        margin-left: 25px;
-    }
-
-    #mobile{
-        padding: 6px 65px;
-        float: left;
-        display: block;
-    }
-
-    .lightbox:target {
-        display: none;
-    }
-
-    .box:active {
-        margin: 15px 5px;
-    }
-
-    .box:hover {
-        margin: 15px 5px;
-    }
+.RectButton:hover{
+    transition-delay: .01s;
+    cursor: pointer !important;
+    scale: 1.1;
 }
