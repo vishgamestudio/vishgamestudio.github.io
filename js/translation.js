@@ -68,6 +68,8 @@ var toggleLanguage = function(id){
     element[0].innerHTML = "Just King has sold over 120,000 copies on Steam, marking our debut into commercial game publishing.";
     var element = document.getElementsByClassName("Gamestext2");
     element[0].innerHTML = "In this game, you will assemble your party of heroes to protect the king as you venture through fantastical lands, battling fearsome kings and deadly armies. Strategically use your treasure to recruit and empower powerful heroes... or the Bard.";
+    var element = document.getElementsByClassName("VejaOJogoNaSteam");
+    element[0].innerHTML = "Check out the game on Steam!";
   }else{
     var element = document.getElementsByClassName("Inicio");
     element[0].innerHTML = "INÍCIO";
@@ -125,5 +127,7 @@ var toggleLanguage = function(id){
     element[0].innerHTML = "Just King conta com mais de 120 mil cópias vendidas na Steam, é o nosso primeiro jogo publicado comercialmente.";
     var element = document.getElementsByClassName("Gamestext2");
     element[0].innerHTML = "Nesse jogo você montará seu grupo de heróis para proteger o rei se aventurando por terras fantásticas, lutando contra reis temíveis e exércitos mortais. Use seu tesouro estrategicamente para contratar e fortalecer heróis poderosos... Ou o Bardo.";
+    var element = document.getElementsByClassName("VejaOJogoNaSteam");
+    element[0].innerHTML = "Veja o jogo na Steam!";
   }
 }
