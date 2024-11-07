@@ -285,6 +285,13 @@ html {
     width: 520px !important;
 }
 
+.policy.subtitle{
+    margin: 20px 0;
+}
+
+.policy.text{
+    margin: 10px 0;
+}
 
 @media screen and (max-width: 1250px){
     

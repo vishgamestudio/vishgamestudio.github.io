@@ -144,4 +144,10 @@ document.addEventListener("DOMContentLoaded", function(){
     element[0].classList.add("RectButton");
   if (element[0])
     element[0].addEventListener('click', function() { window.open('https://www.linkedin.com/in/diemorth/', '_blank'); }, false);
+
+  var element = document.getElementsByClassName("Inicio privacy");
+  if (element[0])
+    element[0].classList.add("NavButton");
+  if (element[0])
+    element[0].addEventListener('click', function() { location.href = "index.html";}, false);
 }, false);
