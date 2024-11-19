@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function(){
   if (element[0])
     element[0].classList.add("RoundButton");
   if (element[0])
-    element[0].addEventListener('click', function() { window.open('https://drive.google.com/drive/folders/1ITk78Qt1wGptGhW3WD9xECLgr0HBk9TZ?usp=sharing', '_blank'); }, false);
+    element[0].addEventListener('click', function() { location.href = 'press.html'; }, false);
   var element = document.getElementsByClassName("Frame10");
   if (element[0])
     element[0].classList.add("RoundButton");
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function(){
   if (element[0])
     element[0].classList.add("RectButton");
   if (element[0])
-    element[0].addEventListener('click', function() { window.open('https://drive.google.com/drive/folders/1ITk78Qt1wGptGhW3WD9xECLgr0HBk9TZ?usp=sharing', '_blank'); }, false);
+    element[0].addEventListener('click', function() { location.href = 'press.html'; }, false);
   var element = document.getElementsByClassName("Frame12");
   if (element[0])
     element[0].classList.add("RectButton");
